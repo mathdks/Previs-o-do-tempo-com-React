@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        @apply w-full h-12 flex items-center justify-center bg-cyan-300 fixed top-0 left-0 z-50
+    }
+    .button {
+        @apply bg-cyan-100 hover:bg-cyan-400 active:bg-cyan-600 text-black active:text-white 
+        text-center font-medium min-w-[150px] px-5 py-2 rounded-lg duration-300 
+        shadow hover:shadow-lg active:shadow
+    }
+    .card {
+        @apply bg-cyan-200 rounded-xl py-5 grid grid-cols-3 text-center
+    }
+    .card > .card-title {
+        @apply text-3xl text-cyan-700 font-light tracking-widest uppercase col-span-3 flex justify-center items-center
+    }
+    .card > .card-details {
+        @apply text-xs flex flex-col text-slate-500
+    }
+    .card > .card-details > span {
+        @apply text-xl text-cyan-700 font-light uppercase tracking-wider
+    }
+}
