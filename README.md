@@ -20,11 +20,11 @@ Ele foi dividido, basicamente, em 4 grandes regras de negócio:
 
 ## O que foi feito
 
-[X] Criação da aplicação: toda a aplicação foi construída utilizando o React e suas bibliotecas auxiliares
+- [X] Criação da aplicação: toda a aplicação foi construída utilizando o React e suas bibliotecas auxiliares
 (react-router-dom, react-redux, etc)
-[X] Estilização dos componentes: toda a estilização de componentes foi feita utilizando o TailwindCSS.
+- [X] Estilização dos componentes: toda a estilização de componentes foi feita utilizando o TailwindCSS.
 Geralmente, em projetos pequenos, a estilização de componentes é a última coisa que eu faço. E entendo que o TailwindCSS se encaixa como uma ferramente perfeita, pois permite estilizar os componentes de uma maneira rápida, prática e intuitiva. Nesse projeto todos os componentes foram estilizados em menos de 30 minutos.
-[X] Consulta da API: a consulta da API do OpenWeatherMap é feita utilizando o *[nome da cidade](https://openweathermap.org/current#name)*. Foi utilizado o parâmetro **units=metric** para que a API enviasse a resposta no padrão do Sistema Internacional de Unidades. **Todos os dados apresentados em tela e armazenados no Redux e no Firebase são da resposta da API**.
+- [X] Consulta da API: a consulta da API do OpenWeatherMap é feita utilizando o *[nome da cidade](https://openweathermap.org/current#name)*. Foi utilizado o parâmetro **units=metric** para que a API enviasse a resposta no padrão do Sistema Internacional de Unidades. **Todos os dados apresentados em tela e armazenados no Redux e no Firebase são da resposta da API**.
 
 ## O que (ainda) não foi feito e porque não foi feito
 
